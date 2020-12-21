@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+<style>
+    html,body{
+        width: 100%;
+        height: 100%;
+        margin: 0; 
+        padding: 0;
+        background-image: url(img/bg_abyss_1.png);
+        background-size: cover;
+        background-position: center;
+    }
+    body{
+        display:flex;
+        align-items: center;
+        justify-content: center;
+    }
+    div#content{
+        width:900px;
+        height:800px;
+        border-radius: 10px;
+        border: solid #333;
+        background-color: darkgrey;
+        opacity: 75%;
+    }
+    div#declare{
+	width: "900px";
+	height: "60px";
+	margin-top: 20px;
+	opacity: 1;
+	font-size: 45px;
+	align-items: center;
+    }
+    div#info{
+        margin-top: 70px;
+    }
+	div#sheet{
+		font-size:20px;
+		margin-left:100px;
+		width:300px;
+		
+	}
+	div#real{
+    margin-left: 270px;
+    margin-top: -230px;
+    font-size: 20px;
+    width: 500px;
+	}
+	.heimu, .heimu a, a .heimu, .heimu a.new {
+		background-color: #252525;
+		color: #252525;
+		text-shadow: none;
+	}
+	.heimu:hover, .heimu:active,
+	.heimu:hover .heimu, .heimu:active .heimu {
+		color: white !important;
+	}
+	.heimu:hover a, a:hover .heimu,
+	.heimu:active a, a:active .heimu {
+		color: lightblue !important;
+	}
+	.heimu:hover .new, .heimu .new:hover, .new:hover .heimu,
+	.heimu:active .new, .heimu .new:active, .new:active .heimu {
+		color: #BA0000 !important;
+	}
+	h1#title{
+		font-size:40px;
+		margin-top:-30px;
+	}
+	div#link{
+        color: black;
+        text-decoration: none;
+		animation: blinking 1.5s 0.1s linear infinite alternate;
+    }
+    @keyframes blinking{
+        0% {opacity: 100%;}
+        50%{opacity: 0%;}
+        100%{opacity:100%;}
+    }
+	div#contact{
+		font-size: 20px;
+		margin-top: 40px;
+		align-content: center;
+	}
+	div#introduction{
+		font-size: 20px;
+	}
+	div#rosemary{
+		position: fixed;
+		bottom: 0;
+	}
+</style>
+
+<head>
+    <title>我也不知道这是个什么页面</title>
+</head>
+<body>
+<div id="content">
+<div id="background"></div>
+<div id="declare" align="center">
+	<img src="img/maomaotou.png" width="60px"><strong> 你找到了一只随心所欲的猫猫头 </strong><img src="img/maomaotou.png" width="60px">
+</div>
+<div id="info">
+    <h1 id="title"align="center"><strong>猫猫头属性</strong></h1>
+<div id="sheet">
+        <ol>代号</ol>
+		<ol>爱好</ol>
+		<ol>能力</ol>
+		<ol>技能</ol>
+		<ol>活动场合</ol>
+    </div>
+<div id="real">
+		<ol>XBB</ol>
+		<ol>打游戏 看番 DD</ol>
+		<ol>整活程度的能力<span class="heimu">雾</span></ol>
+		<ol>简单的PS、PR技巧 视频字幕制作专长</ol>
+		<ol>B站 推特 QQ</ol>
+	</div>
+</div>
+	<div id="introduction" align="center">
+	<p>这里是一只干啥啥不行 整活第一名的猫猫头</p>
+	<p>姑且有些乱七八糟的技能</p>
+	<p>18岁 是死宅</p>
+	</div>
+<div id="contact" align="center">
+	》_《 如果想与这只猫猫头直接对线 》_《
+	<div id="link"><a href="contact.html">戳这里</a></div>
+</div>
+</div>
+	<div id="rosemary"><img src="img/迷迭香-默认-基建-Relax-x1.gif" height="250px"></div>
+</body>
+
+</html>

@@ -1,0 +1,77 @@
+<!DOCTYPE HTML>
+<style>
+    html,body {
+            width: 100%;
+            height: 100%;
+            margin: 0; 
+            padding: 0;
+            background-image: url(img/avg_5_7_shining.png);
+            background-size: cover;
+            background-position: center;
+        }
+    body{
+        display:flex;
+        align-items: center;
+        justify-content: center;
+    }
+    div#content {
+            width:"400px";
+            height:"400px";
+            color:#FFFFFF;
+        }
+    h2#button{
+        animation: blinking 1.5s 0.1s linear infinite alternate;
+    }
+    @keyframes blinking{
+        0% {opacity: 100%;}
+        50%{opacity: 0%;}
+        100%{opacity:100%;}
+    }
+    a#jump{
+        color: white;
+        text-decoration: none;
+    }
+</style>
+<HTML>
+<head>
+<title></title>
+</head>
+<body>
+<!--[if lt IE 9]>
+    <div class='ie-must-go-die'>
+      <div class='ie-container'}>
+        <h1>
+          您正在IE的花海中
+        </h1>
+        <p>
+          姐姐，我之前飞到过一片花田。
+          <br/>
+          那里很空旷，很寂静。
+          <br/>
+          微风吹过我的脸颊，
+          <br/>
+          有一丝丝甘甜的气息。
+          <br/>
+          我眺望远处，
+          <br/>
+          绵延的花海仿佛在指引着我，
+          <br/>
+          透过它，
+          <br/>
+          我理解了这五彩斑斓的世界。
+        </p>
+        <a href='https://browsehappy.com' target='_blank'>
+          您可以点击此处，下载Chrome/Firefox后再次访问本页面。
+        </a>
+      </div>
+    </div>
+  <![endif]-->
+<div id=content>
+    <img src="img/logo_rhodes.png" align="middle" width="300px" height="300px">
+    <div id="text">
+        <h1 align="middle">Welcome! Visitor</h1><br>
+        <a id="jump" href="self-intro.html"><h2 id="button" align="middle">click to continue...</h2></a>
+    </div>
+</div>
+</body>
+</HTML>
